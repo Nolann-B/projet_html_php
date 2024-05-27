@@ -1,0 +1,145 @@
+/* ****************************  BODY  **************************** */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #body {
+
+        background-image: url(/assets/img/concrete-texture.png);
+        width: 1400px;
+        height: 1000px;
+
+    }
+
+/* ****************************  HEADER  **************************** */
+
+    #header{
+
+        background-color: rgba(31, 87, 184, 0.809);
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+    }
+
+    #header1{
+        width: 30%;
+    }
+    #header > img {
+       box-sizing: border-box;
+    }
+    /* #header3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 30%;
+        box-sizing: border-box;} */
+
+    #header > div {
+        padding: 20px;
+    }
+
+    #header2{
+        display: flex;
+        align-items: center;
+    }
+
+    img{
+        /* width: 100%;
+        height: 50%; */
+        margin: auto;
+        box-sizing: content-box;
+    }
+    /* .icone{
+        width: 50px;
+        height: 50px;
+    } */
+
+    #titre{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-variant: small-caps;
+        text-align: center;
+        line-height: 50%;
+    }
+
+/* ****************************  NAV  **************************** */    
+
+nav {
+
+    background-color: rgba(23, 86, 202, 0.584);
+    border-bottom: 5px solid lightblue;
+}
+    #nav {
+        width: 90%;
+        /* justify-content: space-evenly; */
+        margin: auto;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        list-style-type:none ;
+        /* margin: 10px; */
+        padding: 5px;
+    }
+
+    li {
+        padding: 5px;
+        border: 1px solid white;
+        border-radius: 25% 0% 25% 0%;
+        background-color: lightblue;
+    }
+
+    a:link{
+        text-decoration: none;
+        color: white;
+    }
+    li:hover{
+        background-color: rgba(68, 68, 68, 0.646);
+        color: white;
+    }
+
+/* ****************************  MAIN  **************************** */
+
+#form{
+    background-color: lightgrey;
+    width: 50%;
+    margin: auto;
+}
+
+/* ****************************  FOOTER  **************************** */
+
+/* ****************************  MEDIA QUERIES  **************************** */
+
+@media (max-width:1500px) {
+    
+    #body{
+        width: 80%;
+    }
+
+}
+
+@media (max-width:1398.99px) {
+    
+    #body{
+        width: 90%;
+    }
+
+}
+@media (max-width:960px) {
+    
+    #body{
+        width: 75%;
+    }
+    
+}
+@media (max-width:560px) {
+    
+    #body{
+        width: 60%;
+    }
+    
+}
