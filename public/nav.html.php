@@ -3,84 +3,84 @@
         <ul>
             <li>
                 <div class="liens">
-                    <a href="">
+                    <a href="./structure.php" target=blank>
                         Structure
                     </a>
                 </div>
             </li>
             <li>
                 <div class="liens">
-                    <a href="">
+                    <a href="./texte.php" target=blank>
                         Texte
                     </a>
                 </div>
             </li>
             <li>
                 <div class="liens">
-                    <a href="">
+                    <a href="./selecteur.php" target=blank>
                         Selecteur
                     </a>
                 </div>
             </li>
             <li>
                 <div class="liens">
-                    <a href="">
+                    <a href="./image.php" target=blank>
                         Image
                     </a>
                 </div>
             </li>
             <li>
                 <div class="liens">
-                    <a href="">
+                    <a href="./position.php" target=blank>
                         Position
                     </a>
                 </div>
             </li>
             <li>
                 <div class="liens">
-                    <a href="">
+                    <a href="./zoning.php" target=blank>
                         Zoning
                     </a>
                 </div>
             </li>
             <li>
                 <div class="liens">
-                    <a href="">
+                    <a href="./tableau.php" target=blank>
                         Tableau
                     </a>
                 </div>
             </li>
             <li>
                 <div class="liens">
-                    <a href="">
+                    <a href="./liste.php" target=blank>
                         Liste
                     </a>
                 </div>
             </li>
             <li>
                 <div class="liens">
-                    <a href="">
+                    <a href="./lien_menu.php" target=blank>
                         Lien & Menu
                     </a>
                 </div>
             </li>
             <li>
                 <div class="liens">
-                    <a href="">
+                    <a href="./formulaire.php" target=blank>
                         Formulaire
                     </a>
                 </div>
             </li>
             <li>
                 <div class="liens">
-                    <a href="">
+                    <a href="./multimedia.php" target=blank>
                         Multimedia
                     </a>
                 </div>
             </li>
             <li>
                 <div class="liens">
-                    <a href="">
+                    <a href="./animation.php" target=blank>
                         Animation
                     </a>
                 </div>

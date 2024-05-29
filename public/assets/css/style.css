@@ -11,6 +11,7 @@
         background-image: url(/assets/img/concrete-texture.png);
         width: 1400px;
         height: 1000px;
+        margin: auto;
 
     }
 
@@ -18,7 +19,7 @@
 
     #header{
 
-        background-color: rgba(31, 87, 184, 0.809);
+        background-color: #2C3E50;
         display: flex;
         justify-content: space-between;
         height: 150px;
@@ -29,6 +30,11 @@
     }
     #header > img {
        box-sizing: border-box;
+    }
+
+    #header3{
+        width: 30%;
+        text-align: right;
     }
     /* #header3{
         display: flex;
@@ -47,9 +53,8 @@
     }
 
     img{
-        /* width: 100%;
-        height: 50%; */
-        margin: auto;
+        width: 100px;
+        /* margin: auto; */
         box-sizing: content-box;
     }
     /* .icone{
@@ -60,17 +65,18 @@
     #titre{
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
-        font-variant: small-caps;
+        /* font-variant: small-caps; */
         text-align: center;
-        line-height: 50%;
+        /* line-height: 50%; */
+        color:#2980B9;
     }
 
 /* ****************************  NAV  **************************** */    
 
 nav {
 
-    background-color: rgba(23, 86, 202, 0.584);
-    border-bottom: 5px solid lightblue;
+    background-color: #2980B9;
+    border-bottom: 5px solid #6ACAFC;
 }
     #nav {
         width: 90%;
@@ -90,7 +96,7 @@ nav {
         padding: 5px;
         border: 1px solid white;
         border-radius: 25% 0% 25% 0%;
-        background-color: lightblue;
+        background-color: #6ACAFC;
     }
 
     a:link{
@@ -98,11 +104,16 @@ nav {
         color: white;
     }
     li:hover{
-        background-color: rgba(68, 68, 68, 0.646);
+        background-color: #2C3E50;
         color: white;
     }
 
 /* ****************************  MAIN  **************************** */
+
+main{
+    background-image: url("../img/concrete-texture.png");
+    min-height: 500px;
+}
 
 #form{
     background-color: lightgrey;
@@ -112,12 +123,16 @@ nav {
 
 /* ****************************  FOOTER  **************************** */
 
+footer{
+    background-color: #2980B9;
+}
+
 /* ****************************  MEDIA QUERIES  **************************** */
 
 @media (max-width:1500px) {
     
     #body{
-        width: 80%;
+        max-width: 60%;
     }
 
 }
@@ -125,21 +140,22 @@ nav {
 @media (max-width:1398.99px) {
     
     #body{
-        width: 90%;
+        max-width: 75%;
     }
 
 }
 @media (max-width:960px) {
     
     #body{
-        width: 75%;
+        max-width: 80%;
     }
     
 }
+
 @media (max-width:560px) {
     
     #body{
-        width: 60%;
+        max-width: 100%;
     }
     
-}
+} 
