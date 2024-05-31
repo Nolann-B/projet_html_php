@@ -5,6 +5,7 @@
 <main>
     <div id="main">
         <div id="form">
+            <h2>Formulaire</h2>
             <form action="get">
                 <fieldset>
 
@@ -40,9 +41,6 @@
             </fieldset>
             </form>
         </div>
-    </div>
-    <div id="copy">
-        &copy; 2020 Le Poles
     </div>
 </main>
 

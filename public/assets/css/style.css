@@ -8,7 +8,7 @@
 
     #body {
 
-        background-image: url(/assets/img/concrete-texture.png);
+        background-image: url("../img/concrete-texture.png");
         width: 1400px;
         height: 1000px;
         margin: auto;
@@ -111,14 +111,21 @@ nav {
 /* ****************************  MAIN  **************************** */
 
 main{
-    background-image: url("../img/concrete-texture.png");
+    width:50%;
+    margin: auto;
     min-height: 500px;
 }
 
+/* MAIN _ FORMULAIRE */
+
 #form{
     background-color: lightgrey;
-    width: 50%;
+    /* width: 50%; */
     margin: auto;
+}
+form {
+    background-color: #2C3E50;
+    border-radius: 10% 10% 10% 10%;
 }
 
 /* ****************************  FOOTER  **************************** */
