@@ -90,6 +90,7 @@ nav {
         list-style-type:none ;
         /* margin: 10px; */
         padding: 5px;
+
     }
 
     li {
@@ -97,6 +98,7 @@ nav {
         border: 1px solid white;
         border-radius: 25% 0% 25% 0%;
         background-color: #6ACAFC;
+        margin-bottom: 5px;
     }
 
     a:link{
@@ -113,19 +115,42 @@ nav {
 main{
     width:50%;
     margin: auto;
-    min-height: 500px;
+    min-height: 1000px;
 }
 
 /* MAIN _ FORMULAIRE */
 
 #form{
-    background-color: lightgrey;
     /* width: 50%; */
     margin: auto;
+    color: white;
+    /* font-weight: bold; */
 }
 form {
     background-color: #2C3E50;
-    border-radius: 10% 10% 10% 10%;
+    border-radius: 5% 5% 5% 5%;
+    padding: 5%;
+
+}
+
+form > div > *{
+    margin-bottom:10px;
+}
+
+textarea{
+    float: right;
+}
+
+#padding2{
+    margin-right: 5px;
+}
+
+div.left > div > input {
+    float: right;
+}
+
+.padding{
+    padding: 5px;
 }
 
 /* ****************************  FOOTER  **************************** */
@@ -149,12 +174,18 @@ footer{
     #body{
         max-width: 75%;
     }
+    main{
+        width: 75%;
+    }
 
 }
 @media (max-width:960px) {
     
     #body{
         max-width: 80%;
+    }
+    main{
+        width: 75%;
     }
     
 }
@@ -163,6 +194,9 @@ footer{
     
     #body{
         max-width: 100%;
+    }
+    main{
+        width: 100%;
     }
     
 } 

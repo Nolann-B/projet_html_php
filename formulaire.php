@@ -4,41 +4,81 @@
 
 <main>
     <div id="main">
-        <div id="form">
-            <h2>Formulaire</h2>
-            <form action="get">
-                <fieldset>
 
-                   <legend>Un peu banger non?</legend>
-                   <br>
-                   <label for="pseudo">Pseudo</label>
-                   <br>
-                   <input type="text" id="pseudo" name="pseudo" value="">
-                   <br>
-                   <label for="prenom">Prénom</label>
-                   <br>
-                   <input type="text" id="prenom" name="prenom" value="">
-                   <br>
-                   <label for="mot de passe">Mot de passe</label>
-                   <br>
-                   <input type="password" id="mot de passe" name="mot de passe" value="">
-                   <br>
-                   <label for="email">Email</label>
-                   <br>
-                   <input type="email" id="email" name="email" value="">
-                   <br>
-                   <label for="fichiers">Choisir un fichier</label>
-                   
-                   <input type="file" id="fichiers" name="fichiers">
-                   <br>
-                   <label for="checkbox">Orange</label>
-                   <input type="checkbox" id="checkbox" name="checkbox"value="">
-                   <br>
-                   <label for="text">Message</label>
-                   <br>
-                   <textarea name="Message" id="text" rows="8"></textarea><br><br>
-                   <input type="submit" value="Envoyer"><input type="reset">
-            </fieldset>
+        <div id="titre_form">
+            <h2>FORMULAIRE</h2>
+        </div>
+
+        <div id="form">
+            <form action="get">
+
+                    <div class="mid_size left">
+
+                        <div class="padding">
+                            <label for="pseudo">Pseudo</label>
+                            <input type="text" id="pseudo" name="pseudo" value=""> 
+                        </div>
+
+                        <div class="padding">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" id="prenom" name="prenom" value=""> 
+                        </div>
+
+                        <div class="padding">
+                            <label for="mot de passe">Mot de passe</label>
+                            <input type="password" id="mot de passe" name="mot de passe" value=""> 
+                        </div>
+
+                        <div class="padding">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" value="">
+                        </div>
+
+                    </div>
+
+                    <div class="left">
+
+                        <div class="padding">
+                            <label for="fichiers">CV</label>
+                            <input type="file" id="fichiers" name="fichiers">
+                        </div>
+                        
+
+                        <br>
+                    </div>
+
+                    <div id=checkbox>
+                        <p>Quel sont vos fruits préférés ?</p>
+                        <label for="orange">Orange</label>
+                        <input type="checkbox" id="orange" name="orange"value="">
+                        <label for="fraise">Fraise</label>
+                        <input type="checkbox" id="fraise" name="fraise"value="">
+                        <label for="poire">Poire</label>
+                        <input type="checkbox" id="poire" name="poire"value="">
+                        <br>
+                    </div>
+
+                    <div class="mid_size left">
+
+                        <div class="padding">
+                            <label for="code_p">Code Postal </label>
+                            <input type="text" name="code_p" id="code_p">
+                        </div>
+                        
+                    </div>
+
+                    <div class="left">
+
+                        <div class="padding text_area">
+                            <label for="text">Message</label>
+                            <textarea name="Message" id="text" rows="4"></textarea>
+                            <br>
+                        </div>
+                        
+                        <input id="padding2" type="submit" value="Envoyer"><input type="reset">
+                    </div>
+
+
             </form>
         </div>
     </div>
